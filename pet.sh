@@ -1,8 +1,5 @@
 #!/bin/bash
 
-NO1=$1
-NO2=$2
+movies=("RRR" "DjTillu" "Murari")
 
-SUM=$(($NO1+$NO2))
-
-echo "Total of $NO1 and $NO2 is: $SUM"
+echo "Movies listed are ${movies[0]}"
